@@ -16,7 +16,7 @@ olMap = new ol.Map({
   renderer: 'canvas',
   layers: [osmLayer, wmsLayer],
   view: new ol.View({
-    center: /**ol.proj.fromLonLat [-96.69, 37.59],**/[-10764594.0, 4523072.0], /**anpassung für oesterreich**/
+    center: /**ol.proj.fromLonLat /**[-96.69, 37.59],**/[-10764594.0, 4523072.0], /**anpassung für oesterreich**/
     zoom: 5,
     maxZoom: 18
   })
